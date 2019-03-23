@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
-import image from "./image.jpg";
+import TopBanner from "./components/TopBanner";
+import image from "./assets/image.jpg";
 import { HeaderTitleWrapper } from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
 
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="vertical">
+          <TopBanner />
           <div
             style={{
               width: "100%",
@@ -18,6 +20,7 @@ class App extends Component {
             }}
           >
             <ParallaxBanner
+              style={{ height: "100vh" }}
               layers={[
                 {
                   image: image,
@@ -39,7 +42,7 @@ class App extends Component {
                 }}
               >
                 <HeaderTitleWrapper>
-                  Finding questions to resolve challenges
+                  {"Finding questions to resolve challenges"}
                 </HeaderTitleWrapper>
               </div>
             </ParallaxBanner>
