@@ -4,20 +4,3 @@
   overflow-x: hidden;
   text-align: center;
 }
-
-.vertical::before {
-  content: "↑ Scroll ↓";
-  position: fixed;
-  display: inline-block;
-  padding: 4px;
-  top: 10px;
-  left: 50%;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  background-color: rgba(30, 30, 30, 0.6);
-  border-radius: 3px;
-  color: white;
-  z-index: 1000;
-  transform: translate3d(-50%, 0, 0);
-}
