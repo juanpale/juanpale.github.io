@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background: rgba(105, 108, 117, 0.3);
   width: 100%;
   position: fixed;
   z-index: 1;
-  display: flex;
+  height: 55px;
   align-items: center;
   justify-content: space-between;
-  height: 55px;
+  display: flex;
+  background: ${props =>
+    props.withBackground ? "rgba(105, 108, 117, 0.3)" : "none"};
+  transition: background 2s;
 `;
 
 export const PhotoContainer = styled.img`
@@ -21,6 +23,7 @@ export const NameContainer = styled.div`
   color: white;
   font-size: 20px;
   margin-left: 10px;
+  font-weight: 600;
 `;
 
 export const LeftWrapper = styled.div`
@@ -45,3 +48,5 @@ export const RightMenusWrapper = styled.div`
   align-items: center;
   height: 100%;
 `;
+
+export const WhiteBackground = styled.div``;

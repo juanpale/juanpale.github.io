@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import image from "assets/image.jpg";
-import { HeaderTitleWrapper } from "./styles";
+import { HeaderTitleWrapper, Wrapper } from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
 
 export default class Home extends Component {
@@ -11,27 +11,16 @@ export default class Home extends Component {
         layers={[
           {
             image: image,
-            amount: 0.2
+            amount: 0.3,
+            expandend: true
           }
         ]}
       >
-        <div
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            display: "flex",
-            flexFow: "row wrap",
-            alignItems: "center",
-            justifyContent: "center"
-          }}
-        >
+        <Wrapper>
           <HeaderTitleWrapper>
-            {"Finding questions to resolve challenges"}
+            {"Creating questions to resolve challenges"}
           </HeaderTitleWrapper>
-        </div>
+        </Wrapper>
       </ParallaxBanner>
     );
   }
