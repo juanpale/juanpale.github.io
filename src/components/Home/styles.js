@@ -12,6 +12,12 @@ export const Wrapper = styled.div`
   justify-content: center;
 `;
 
+export const OuterWraper = styled.div`
+  .parallax-banner-layer-0 {
+    transition: background-image 1s !important;
+  }
+`;
+
 export const HeaderTitleWrapper = styled.div`
   color: white;
   font-size: 33px;

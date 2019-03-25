@@ -35,10 +35,7 @@ export default class Home extends Component {
             Hi! I'm Juan Lemos. I'm passionate about understanding and resolving
             problems, like to suggesting new approaches. I believe in the
             importance of teamwork. I'm committed to what I propose. I consider
-            myself a quick learner. Hi! I'm Juan Lemos. I'm passionate about
-            understanding and resolving problems, like to suggesting new
-            approaches. I believe in the importance of teamwork. I'm committed
-            to what I propose. I consider myself a quick learner.
+            myself a quick learner.
           </TextContainer>
         </Wrapper>
       </ParallaxBanner>

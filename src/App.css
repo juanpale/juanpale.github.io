@@ -1,6 +1,5 @@
 .vertical {
   width: 100%;
-  min-height: 300vh;
   overflow-x: hidden;
   text-align: center;
 }
