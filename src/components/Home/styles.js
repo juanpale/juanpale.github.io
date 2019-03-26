@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { imageTransitionSeconds } from "./index";
 
 export const Wrapper = styled.div`
   position: absolute;

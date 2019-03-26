@@ -4,7 +4,6 @@ import questions from "assets/questions.jpg";
 import plan from "assets/plan.jpg";
 import { HeaderTitleWrapper, Wrapper, OuterWraper } from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
-export const imageTransitionSeconds = 0.8;
 
 export default class Home extends Component {
   constructor(props) {
@@ -30,10 +29,7 @@ export default class Home extends Component {
 
   changeImageAndText(image) {
     this.setState({ currentImage: image }, () =>
-      setTimeout(
-        () => this.setState({ currentText: image }),
-        imageTransitionSeconds * 1000 * 0.5
-      )
+      this.setState({ currentText: image })
     );
   }
 
