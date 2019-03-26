@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { imageTransitionSeconds } from "./index";
 
 export const Wrapper = styled.div`
   position: absolute;
@@ -14,11 +15,11 @@ export const Wrapper = styled.div`
 
 export const OuterWraper = styled.div`
   .parallax-banner-layer-0 {
-    transition: background-image 1s !important;
+    transition: background-image 0.8s !important;
   }
 `;
 
 export const HeaderTitleWrapper = styled.div`
   color: white;
-  font-size: 33px;
+  font-size: 35px;
 `;
