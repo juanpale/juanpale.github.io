@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+import Contact from "components/Contact";
 import TopBanner from "components/TopBanner";
 import Home from "components/Home";
 import About from "components/About";
@@ -34,6 +35,7 @@ class App extends Component {
           />
           <Home />
           <About />
+          <Contact />
         </div>
       </div>
     );
