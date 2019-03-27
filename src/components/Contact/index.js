@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import contact from "assets/contact.jpg";
-// import { ProfileImage, Wrapper, TextContainer } from "./styles";
+import MailIcon from "assets/MailIcon";
+import LinkedinIcon from "assets/LinkedinIcon";
+import { Wrapper } from "./styles";
 import { ParallaxBanner, Parallax } from "react-scroll-parallax";
 
 export default class Home extends Component {
@@ -15,28 +17,15 @@ export default class Home extends Component {
         layers={[
           {
             image: contact,
-            amount: 0.2
+            amount: 0.2,
+            expandend: true
           }
         ]}
       >
-        {/* <Wrapper> */}
-        {/* <Parallax
-            y={[a0, a1]}
-            styleInner={{
-              width: "180px",
-              maxWidth: "45vw"
-            }}
-            styleOuter={{ marginTop: "80px" }}
-          >
-            <ProfileImage src={JuanLemosProfileImage} />
-          </Parallax> */}
-        {/* <TextContainer> */}
-        Hi! I'm Juan Lemos. I'm passionate about understanding and resolving
-        problems, like to suggesting new approaches. I believe in the importance
-        of teamwork. I'm committed to what I propose. I consider myself a quick
-        learner.
-        {/* </TextContainer> */}
-        {/* </Wrapper> */}
+        <Wrapper>
+          <MailIcon color={"white"} />
+          <LinkedinIcon color={"white"} />
+        </Wrapper>
       </ParallaxBanner>
     );
   }

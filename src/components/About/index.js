@@ -11,7 +11,6 @@ export default class Home extends Component {
       <ParallaxBanner
         style={{
           minHeight: "100vh",
-          background: "rgb(4, 7, 16)",
           height: "null"
         }}
         layers={[

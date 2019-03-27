@@ -47,15 +47,25 @@ export default class Home extends Component {
           ]}
         >
           <Wrapper>
-            {this.state.currentText === questions && (
-              <HeaderTitleWrapper>{"Make questions"}</HeaderTitleWrapper>
-            )}
-            {this.state.currentText === plan && (
-              <HeaderTitleWrapper>{"Plan"}</HeaderTitleWrapper>
-            )}
-            {this.state.currentText === challenge && (
-              <HeaderTitleWrapper>{"Face the challenge"}</HeaderTitleWrapper>
-            )}
+            <HeaderTitleWrapper
+              style={{
+                display: this.state.currentText !== questions && "none"
+              }}
+            >
+              {"Make questions"}
+            </HeaderTitleWrapper>
+            <HeaderTitleWrapper
+              style={{ display: this.state.currentText !== plan && "none" }}
+            >
+              {"Plan"}
+            </HeaderTitleWrapper>
+            <HeaderTitleWrapper
+              style={{
+                display: this.state.currentText !== challenge && "none"
+              }}
+            >
+              {"Face the challenge"}
+            </HeaderTitleWrapper>
           </Wrapper>
         </ParallaxBanner>
       </OuterWraper>

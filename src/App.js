@@ -4,6 +4,7 @@ import Contact from "components/Contact";
 import TopBanner from "components/TopBanner";
 import Home from "components/Home";
 import About from "components/About";
+import { colors } from "assets/colors";
 
 class App extends Component {
   constructor(props) {
@@ -29,7 +30,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="vertical">
+        <div className="vertical" style={{ background: colors.background }}>
           <TopBanner
             topBannerWithBackground={this.state.topBannerWithBackground}
           />
