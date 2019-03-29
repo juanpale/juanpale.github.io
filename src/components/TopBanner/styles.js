@@ -47,7 +47,7 @@ export const RightMenusWrapper = styled.div`
     }
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
   }
 `;
 
