@@ -5,6 +5,7 @@ import TopBanner from "components/TopBanner";
 import Home from "components/Home";
 import About from "components/About";
 import { colors } from "assets/colors";
+import { Element } from "react-scroll";
 
 class App extends Component {
   constructor(props) {
@@ -34,9 +35,15 @@ class App extends Component {
           <TopBanner
             topBannerWithBackground={this.state.topBannerWithBackground}
           />
-          <Home />
-          <About />
-          <Contact />
+          <Element name="Home">
+            <Home />
+          </Element>
+          <Element name="About">
+            <About />
+          </Element>
+          <Element name="Contact">
+            <Contact />
+          </Element>
         </div>
       </div>
     );

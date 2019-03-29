@@ -25,4 +25,5 @@ export const TextContainer = styled.div`
   line-height: 1.4;
   margin-left: 12px;
   margin-right: 12px;
+  margin-bottom: 60px;
 `;

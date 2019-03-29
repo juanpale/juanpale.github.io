@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-scroll";
 import {
   Wrapper,
   PhotoContainer,
@@ -18,10 +19,31 @@ export default class TopBanner extends Component {
           <NameContainer> {"Juan Lemos"}</NameContainer>
         </LeftWrapper>
         <RightMenusWrapper>
-          <MenuContainer>{"Home"}</MenuContainer>
-          <MenuContainer>{"About"}</MenuContainer>
-          <MenuContainer>{"Contact"}</MenuContainer>
-          <MenuContainer>{"Feed"}</MenuContainer>
+          <Link
+            className={"MenuContainer"}
+            to="Home"
+            smooth={true}
+            duration={700}
+          >
+            {"Home"}
+          </Link>
+          <Link
+            className={"MenuContainer"}
+            to="About"
+            smooth={true}
+            duration={700}
+          >
+            {"About"}
+          </Link>
+          <Link
+            className={"MenuContainer"}
+            to="Contact"
+            smooth={true}
+            duration={700}
+          >
+            {"Contact"}
+          </Link>
+          {/* <MenuContainer>{"Feed"}</MenuContainer> */}
         </RightMenusWrapper>
       </Wrapper>
     );
