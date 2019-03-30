@@ -3,7 +3,7 @@
 To deploy this project into github pages.
 Just run npm run build
 
-###### Package json scripts had been modified
+###### Package json scripts has been modified
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
