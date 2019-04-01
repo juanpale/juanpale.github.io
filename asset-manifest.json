@@ -1,0 +1,18 @@
+{
+  "main.css": "/static/css/main.adf7f038.chunk.css",
+  "main.js": "/static/js/main.1cecb40a.chunk.js",
+  "main.js.map": "/static/js/main.1cecb40a.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.1453d350.chunk.js": "/static/js/2.1453d350.chunk.js",
+  "static/js/2.1453d350.chunk.js.map": "/static/js/2.1453d350.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.04f898e4c7335bda893ab4fa267c3f29.js": "/precache-manifest.04f898e4c7335bda893ab4fa267c3f29.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.adf7f038.chunk.css.map": "/static/css/main.adf7f038.chunk.css.map",
+  "static/media/challenge1.jpg": "/static/media/challenge1.51da22be.jpg",
+  "static/media/contact.jpg": "/static/media/contact.6e4f7cef.jpg",
+  "static/media/juanLemosProfileImage.png": "/static/media/juanLemosProfileImage.c827aa30.png",
+  "static/media/plan.jpg": "/static/media/plan.b1fd8b35.jpg",
+  "static/media/questions.jpg": "/static/media/questions.b02ac97d.jpg"
+}
