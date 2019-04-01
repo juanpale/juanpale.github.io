@@ -2,7 +2,7 @@
   "name": "juan-lemos-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/juanpale/juan-lemos-web",
+  "homepage": "http://juanlemos.com/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
