@@ -15,7 +15,10 @@ export default class TopBanner extends Component {
     return (
       <Wrapper withBackground={this.props.topBannerWithBackground}>
         <LeftWrapper>
-          <PhotoContainer src={JuanLemosProfileImage} alt={"Juan Lemos"} />
+          <PhotoContainer
+            src={JuanLemosProfileImage}
+            alt={"Juan Lemos profile image"}
+          />
           <NameContainer> {"Juan Lemos"}</NameContainer>
         </LeftWrapper>
         <RightMenusWrapper>

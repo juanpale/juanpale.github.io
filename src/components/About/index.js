@@ -28,7 +28,10 @@ export default class Home extends Component {
             }}
             styleOuter={{ marginTop: "80px" }}
           >
-            <ProfileImage src={JuanLemosProfileImage} />
+            <ProfileImage
+              src={JuanLemosProfileImage}
+              alt={"Juan Lemos profile image"}
+            />
           </Parallax>
           <TextContainer>
             Hi! I'm Juan Lemos. I'm passionate about understanding and resolving
