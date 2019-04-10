@@ -46,6 +46,17 @@ export default class Home extends Component {
             }
           ]}
         >
+          <img
+            src={questions}
+            style={{ display: "none" }}
+            alt={"make questions"}
+          />
+          <img src={plan} style={{ display: "none" }} alt={"plan"} />
+          <img
+            src={challenge}
+            style={{ display: "none" }}
+            alt={"face the challenge"}
+          />
           <Wrapper>
             <HeaderTitleWrapper
               style={{
