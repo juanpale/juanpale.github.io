@@ -37,7 +37,7 @@ export default class Home extends Component {
           <TextContainer>
             I'm a computer engineer, passionate about understanding and solving
             problems, to improve new business and existence ones. <br />
-            Build a solution is process where several interests should be
+            Build a solution is a process where several interests should be
             aligned, because of that I believe in the importance of teamwork,
             taking the other's opinions to create a better result.
           </TextContainer>
