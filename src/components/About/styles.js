@@ -17,12 +17,20 @@ export const Wrapper = styled.div`
   justify-content: center;
 `;
 
-export const TextContainer = styled.div`
+export const HiJuanLemos = styled.div`
   margin-top: 40px;
+  /* font-family: ${fonts.longTexts}; */
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+`;
+
+export const TextContainer = styled.div`
+  margin-top: 12px;
   color: white;
   max-width: 750px;
   font-family: ${fonts.longTexts};
-  line-height: 1.4;
+  line-height: 1.6;
   margin-left: 12px;
   margin-right: 12px;
   margin-bottom: 60px;

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import JuanLemosProfileImage from "assets/juanLemosProfileImage.png";
-import { ProfileImage, Wrapper, TextContainer } from "./styles";
+import { ProfileImage, Wrapper, TextContainer, HiJuanLemos } from "./styles";
 import { ParallaxBanner, Parallax } from "react-scroll-parallax";
 
 export default class Home extends Component {
@@ -33,11 +33,13 @@ export default class Home extends Component {
               alt={"Juan Lemos profile image"}
             />
           </Parallax>
+          <HiJuanLemos>Hi! I'm Juan Lemos</HiJuanLemos>
           <TextContainer>
-            Hi! I'm Juan Lemos. I'm passionate about understanding and resolving
-            problems, like to suggesting new approaches. I believe in the
-            importance of teamwork. I'm committed to what I propose. I consider
-            myself a quick learner.
+            I'm a computer engineer, passionate about understanding and solving
+            problems, to improve new business and existence ones. <br />
+            Build a solution is process where several interests should be
+            aligned, because of that I believe in the importance of teamwork,
+            taking the other's opinions to create a better result.
           </TextContainer>
         </Wrapper>
       </ParallaxBanner>
