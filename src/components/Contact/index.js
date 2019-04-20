@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import contact from "assets/contact.jpg";
-import MailIcon from "assets/MailIcon";
-import LinkedinIcon from "assets/LinkedinIcon";
+import contact from "assets/images/contact.jpg";
+import MailIcon from "assets/icons/MailIcon";
+import LinkedinIcon from "assets/icons/LinkedinIcon";
 import {
   Wrapper,
   IconWrapper,

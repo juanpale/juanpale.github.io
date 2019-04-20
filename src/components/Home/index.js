@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import challenge from "assets/challenge1.jpg";
-import questions from "assets/questions.jpg";
-import plan from "assets/plan.jpg";
+import challenge from "assets/images/challenge1.jpg";
+import questions from "assets/images/questions.jpg";
+import plan from "assets/images/plan.jpg";
 import { HeaderTitleWrapper, Wrapper, OuterWraper } from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
 

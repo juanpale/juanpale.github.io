@@ -8,7 +8,7 @@ import {
   MenuContainer,
   RightMenusWrapper
 } from "./styles";
-import JuanLemosProfileImage from "assets/juanLemosProfileImage.png";
+import JuanLemosProfileImage from "assets/images/juanLemosProfileImage.png";
 
 export default class TopBanner extends Component {
   render() {
