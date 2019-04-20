@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import JuanLemosProfileImage from "assets/juanLemosProfileImage.png";
 import { ProfileImage, Wrapper, TextContainer, HiJuanLemos } from "./styles";
+import { formatTextWithNewLines } from "util/stringUtils";
 import { ParallaxBanner, Parallax } from "react-scroll-parallax";
 
 export default class Home extends Component {
@@ -35,11 +36,9 @@ export default class Home extends Component {
           </Parallax>
           <HiJuanLemos>Hi! I'm Juan Lemos</HiJuanLemos>
           <TextContainer>
-            I'm a computer engineer, passionate about understanding and solving
-            problems, to improve new business and existing ones. <br />
-            Build a solution is a process where several interests should be
-            aligned, because of that I believe in the importance of teamwork,
-            taking the other's opinions to create a better result.
+            {formatTextWithNewLines(`
+            I'm a Computer Engineer, passionate about understanding and solving problems.
+            And I want to help you to improve your business with software, working together we can find the best solution to accomplish your business goals. Build a solution is a process where several interests should be aligned, because of that I believe in the importance of teamwork.`)}
           </TextContainer>
         </Wrapper>
       </ParallaxBanner>
