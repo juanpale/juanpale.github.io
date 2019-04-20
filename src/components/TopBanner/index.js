@@ -5,7 +5,6 @@ import {
   PhotoContainer,
   NameContainer,
   LeftWrapper,
-  MenuContainer,
   RightMenusWrapper
 } from "./styles";
 import JuanLemosProfileImage from "assets/images/juanLemosProfileImage.png";

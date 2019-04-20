@@ -31,8 +31,6 @@ export const LeftWrapper = styled.div`
   align-items: center;
 `;
 
-export const MenuContainer = styled.div``;
-
 export const RightMenusWrapper = styled.div`
   display: flex;
   align-items: center;

@@ -4,6 +4,7 @@ import questions from "assets/images/questions.jpg";
 import plan from "assets/images/plan.jpg";
 import { HeaderTitleWrapper, Wrapper, OuterWraper } from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
+import ImagesLoader from "./ImagesLoader";
 
 export default class Home extends Component {
   constructor(props) {
@@ -36,6 +37,7 @@ export default class Home extends Component {
   render() {
     return (
       <OuterWraper>
+        <ImagesLoader />
         <ParallaxBanner
           style={{ height: "100vh" }}
           layers={[
@@ -46,17 +48,6 @@ export default class Home extends Component {
             }
           ]}
         >
-          <img
-            src={questions}
-            style={{ display: "none" }}
-            alt={"make questions"}
-          />
-          <img src={plan} style={{ display: "none" }} alt={"plan"} />
-          <img
-            src={challenge}
-            style={{ display: "none" }}
-            alt={"face the challenge"}
-          />
           <Wrapper>
             <HeaderTitleWrapper
               style={{

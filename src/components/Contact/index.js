@@ -8,7 +8,7 @@ import {
   EmailIconWrapper,
   TextContainer
 } from "./styles";
-import { ParallaxBanner, Parallax } from "react-scroll-parallax";
+import { ParallaxBanner } from "react-scroll-parallax";
 
 export default class Home extends Component {
   render() {
@@ -22,7 +22,7 @@ export default class Home extends Component {
         layers={[
           {
             image: contact,
-            amount: 0.2,
+            amount: 0.3,
             expandend: true
           }
         ]}
