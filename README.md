@@ -1,7 +1,7 @@
 ## IMPORTANT
 
 To deploy this project into github pages.
-Just run `npm run deploy`
+Just run `npm run build`
 
 ###### Package json scripts has been modified
 
