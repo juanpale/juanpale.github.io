@@ -37,7 +37,7 @@ export default class Home extends Component {
   render() {
     return (
       <OuterWraper>
-        <ImagesLoader />
+        <ImagesLoader images={[handshake, presence, automatize]} />
         <ParallaxBanner
           style={{ height: "100vh" }}
           layers={[
