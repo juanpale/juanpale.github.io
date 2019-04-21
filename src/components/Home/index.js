@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import handshake from "assets/originalSizeImage/handshake.jpg";
+import handshake from "assets/images/handshake.jpg";
 import { formatTextWithNewLines } from "utils/stringUtils";
 import { HeaderTitleWrapper, Wrapper, OuterWraper } from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
