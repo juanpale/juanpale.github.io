@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import JuanLemosProfileImage from "assets/images/juanLemosProfileImage.png";
 import { ProfileImage, Wrapper, TextContainer, HiJuanLemos } from "./styles";
-import { formatTextWithNewLines } from "util/stringUtils";
+import { formatTextWithNewLines } from "utils/stringUtils";
 import { ParallaxBanner, Parallax } from "react-scroll-parallax";
 
 export default class Home extends Component {

@@ -20,5 +20,13 @@ export const OuterWraper = styled.div`
 
 export const HeaderTitleWrapper = styled.div`
   color: white;
-  font-size: 35px;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: #00000094 1px 0 8px;
+  p {
+    margin-top: 0px;
+  }
+  p:nth-child(2) {
+    font-size: 52px;
+  }
 `;
