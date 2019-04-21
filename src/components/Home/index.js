@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import questions from "assets/originalSizeImage/presence.jpg";
-import plan from "assets/originalSizeImage/automatize.jpg";
-import challenge from "assets/images/handshake.jpg";
+import presence from "assets/images/presence.jpg";
+import automatize from "assets/images/automatize.jpg";
+import handshake from "assets/images/handshake.jpg";
 import { HeaderTitleWrapper, Wrapper, OuterWraper } from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
 import ImagesLoader from "./ImagesLoader";
@@ -9,7 +9,7 @@ import ImagesLoader from "./ImagesLoader";
 export default class Home extends Component {
   constructor(props) {
     super(props);
-    this.state = { currentImage: questions, currentText: questions };
+    this.state = { currentImage: presence, currentText: presence };
   }
   componentDidMount() {
     this.changeTimer();
@@ -17,12 +17,12 @@ export default class Home extends Component {
 
   changeTimer() {
     setTimeout(() => {
-      if (this.state.currentImage === challenge) {
-        this.changeImageAndText(questions);
-      } else if (this.state.currentImage === questions) {
-        this.changeImageAndText(plan);
+      if (this.state.currentImage === handshake) {
+        this.changeImageAndText(presence);
+      } else if (this.state.currentImage === presence) {
+        this.changeImageAndText(automatize);
       } else {
-        this.changeImageAndText(challenge);
+        this.changeImageAndText(handshake);
       }
       this.changeTimer();
     }, 3000);
@@ -51,19 +51,21 @@ export default class Home extends Component {
           <Wrapper>
             <HeaderTitleWrapper
               style={{
-                display: this.state.currentText !== questions && "none"
+                display: this.state.currentText !== presence && "none"
               }}
             >
               {"Enhance your online presence"}
             </HeaderTitleWrapper>
             <HeaderTitleWrapper
-              style={{ display: this.state.currentText !== plan && "none" }}
+              style={{
+                display: this.state.currentText !== automatize && "none"
+              }}
             >
               {"Automatize"}
             </HeaderTitleWrapper>
             <HeaderTitleWrapper
               style={{
-                display: this.state.currentText !== challenge && "none"
+                display: this.state.currentText !== handshake && "none"
               }}
             >
               {"Improve your business"}
