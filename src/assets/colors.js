@@ -1,3 +1,3 @@
 export const colors = {
-  background: "#2A4963"
+  background: "rgb(158, 172, 185)"
 };
