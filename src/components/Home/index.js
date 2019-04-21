@@ -43,7 +43,7 @@ export default class Home extends Component {
           layers={[
             {
               image: this.state.currentImage,
-              amount: 0.01,
+              amount: 0.05,
               expandend: true
             }
           ]}
