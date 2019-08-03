@@ -1,18 +1,18 @@
 {
-  "main.css": "/static/css/main.adf7f038.chunk.css",
-  "main.js": "/static/js/main.3f47e385.chunk.js",
-  "main.js.map": "/static/js/main.3f47e385.chunk.js.map",
+  "main.css": "/static/css/main.b68fc2a7.chunk.css",
+  "main.js": "/static/js/main.41f3e651.chunk.js",
+  "main.js.map": "/static/js/main.41f3e651.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.8baadbd6.chunk.js": "/static/js/2.8baadbd6.chunk.js",
   "static/js/2.8baadbd6.chunk.js.map": "/static/js/2.8baadbd6.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.27e61509686c48e5bdc4b875ebba3161.js": "/precache-manifest.27e61509686c48e5bdc4b875ebba3161.js",
+  "precache-manifest.dbeede31ac17c110bb20bdf062fb8527.js": "/precache-manifest.dbeede31ac17c110bb20bdf062fb8527.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.adf7f038.chunk.css.map": "/static/css/main.adf7f038.chunk.css.map",
+  "static/css/main.b68fc2a7.chunk.css.map": "/static/css/main.b68fc2a7.chunk.css.map",
   "static/media/automatize.jpg": "/static/media/automatize.012d83a7.jpg",
   "static/media/contact.jpg": "/static/media/contact.dd36aa87.jpg",
   "static/media/handshake.jpg": "/static/media/handshake.c9452e47.jpg",
   "static/media/juanLemosProfileImage.png": "/static/media/juanLemosProfileImage.c827aa30.png",
-  "static/media/presence.jpg": "/static/media/presence.35883344.jpg"
+  "static/media/presence.jpg": "/static/media/presence.1b144bfd.jpg"
 }
