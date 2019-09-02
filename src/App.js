@@ -10,7 +10,7 @@ import { Element } from "react-scroll";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { topBannerWithBackground: false };
+    this.state = { top: true };
     this.wrapperRef = React.createRef();
   }
 

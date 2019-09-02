@@ -14,7 +14,8 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  position: relative;
 `;
 
 export const HiJuanLemos = styled.div`
@@ -35,3 +36,5 @@ export const TextContainer = styled.div`
   margin-right: 12px;
   margin-bottom: 60px;
 `;
+
+export const Button = styled.div``;
