@@ -34,7 +34,16 @@ export const TextContainer = styled.div`
   line-height: 1.6;
   margin-left: 12px;
   margin-right: 12px;
-  margin-bottom: 60px;
 `;
 
-export const Button = styled.div``;
+export const Button = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  background: white;
+  border-radius: 43px;
+  color: black;
+  font-family: ${fonts.longTexts};
+  cursor: pointer;
+`;

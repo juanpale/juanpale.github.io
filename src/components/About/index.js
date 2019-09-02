@@ -1,9 +1,16 @@
 import React, { Component } from "react";
 import JuanLemosProfileImage from "assets/images/juanLemosProfileImage.png";
 import CVpdf from "assets/CV.pdf";
+import { Link } from "react-scroll";
 import { formatTextWithNewLines } from "utils/stringUtils";
 import { ParallaxBanner, Parallax } from "react-scroll-parallax";
-import { ProfileImage, Wrapper, TextContainer, HiJuanLemos } from "./styles";
+import {
+  ProfileImage,
+  Wrapper,
+  TextContainer,
+  HiJuanLemos,
+  Button
+} from "./styles";
 
 export default class Home extends Component {
   render() {
@@ -39,12 +46,25 @@ export default class Home extends Component {
           <TextContainer>
             {formatTextWithNewLines(`
             I'm a Computer Engineer, passionate about understanding problems and creating solutions.
-            I want to help you to improve your business with software, working together we can find the best solution to accomplish your business goals. Build a solution is a process where several interests should be aligned, because of that I believe in the importance of teamwork.
-            Let's talk!`)}
+            I want to help you to improve your business with software, working together we can find the best solution to accomplish your business goals. Build a solution is a process where several interests should be aligned, because of that I believe in the importance of teamwork.`)}
           </TextContainer>
-          <div onClick={() => window.open(CVpdf, "_blank")}>
-            {"Download CV"}
-          </div>
+
+          <Link
+            className={"MenuContainer"}
+            to="Contact"
+            smooth={true}
+            duration={700}
+          >
+            <Button style={{ background: "#e4e4e4", marginBottom: "18px" }}>
+              {"Let's talk!"}
+            </Button>
+          </Link>
+          <Button
+            style={{ marginBottom: "18px" }}
+            onClick={() => window.open(CVpdf, "_blank")}
+          >
+            {"Download resume"}
+          </Button>
         </Wrapper>
       </ParallaxBanner>
     );
