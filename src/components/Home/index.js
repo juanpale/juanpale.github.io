@@ -1,8 +1,15 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import presence from "assets/images/presence.jpg";
 import automatize from "assets/images/automatize.jpg";
 import handshake from "assets/images/handshake.jpg";
-import { HeaderTitleWrapper, Wrapper, OuterWraper } from "./styles";
+import MouesIcon from "assets/icons/MouseIcon.js";
+import {
+  HeaderTitleWrapper,
+  Wrapper,
+  OuterWraper,
+  MouseIconWrapper
+} from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
 import ImagesLoader from "./ImagesLoader";
 
@@ -70,9 +77,16 @@ export default class Home extends Component {
             >
               {"Improve your business"}
             </HeaderTitleWrapper>
+            <MouseIconWrapper show={this.props.top}>
+              <MouesIcon size={120} />
+            </MouseIconWrapper>
           </Wrapper>
         </ParallaxBanner>
       </OuterWraper>
     );
   }
 }
+
+Home.propTypes = {
+  top: PropTypes.bool
+};

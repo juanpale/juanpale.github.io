@@ -30,3 +30,24 @@ export const HeaderTitleWrapper = styled.div`
     font-size: 52px;
   }
 `;
+
+export const MouseIconWrapper = styled.div`
+  visibility: ${props => (props.show ? "block" : "none")};
+  opacity: ${props => (props.show ? 1 : 0)};
+  transition: visibility, opacity 1s;
+  position: absolute;
+  bottom: 0;
+  animation-name: bounceMouse;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  @keyframes bounceMouse {
+    from {
+      bottom: 20px;
+    }
+    to {
+      bottom: 0px;
+    }
+  }
+`;

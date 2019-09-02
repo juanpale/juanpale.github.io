@@ -23,8 +23,9 @@ class App extends Component {
   }
 
   handleScroll() {
+    console.log(document.documentElement.scrollTop);
     this.setState({
-      topBannerWithBackground: document.documentElement.scrollTop > 0
+      top: document.documentElement.scrollTop === 0
     });
   }
 
@@ -32,11 +33,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="vertical" style={{ background: colors.background }}>
-          <TopBanner
-            topBannerWithBackground={this.state.topBannerWithBackground}
-          />
+          <TopBanner topBannerWithBackground={!this.state.top} />
           <Element name="Home">
-            <Home />
+            <Home top={this.state.top} />
           </Element>
           <Element name="About">
             <About />
