@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import JuanLemosProfileImage from "assets/images/juanLemosProfileImage.png";
-import CVpdf from "assets/CV.pdf";
+import CVpdf from "assets/CV-Juan-Lemos.pdf";
 import { Link } from "react-scroll";
 import { formatTextWithNewLines } from "utils/stringUtils";
 import { ParallaxBanner, Parallax } from "react-scroll-parallax";
@@ -61,7 +61,7 @@ export default class Home extends Component {
           </Link>
           <Button
             style={{ marginBottom: "18px" }}
-            onClick={() => window.open(CVpdf, "_blank")}
+            onClick={() => window.open(CVpdf, "CV Juan Lemos")}
           >
             {"Download resume"}
           </Button>
