@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/handshake.c9452e47.jpg"
   },
   {
-    "revision": "c354825808d8dc10cedb",
+    "revision": "c788fba88457cce2fc2f",
     "url": "/static/css/main.b68fc2a7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/presence.1b144bfd.jpg"
   },
   {
-    "revision": "c354825808d8dc10cedb",
-    "url": "/static/js/main.e8119bb2.chunk.js"
+    "revision": "c788fba88457cce2fc2f",
+    "url": "/static/js/main.80584a05.chunk.js"
   },
   {
     "revision": "c827aa301101d6a7bf8ab727b3fa9b76",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/CV-Juan-Lemos.62a83869.pdf"
   },
   {
-    "revision": "3a32d896c2af9a43eba4dca0b16ff488",
+    "revision": "cb1f0d8c820991bc8a8c0b78e4a94bf4",
     "url": "/index.html"
   }
 ];
