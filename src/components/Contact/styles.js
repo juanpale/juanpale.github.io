@@ -13,21 +13,7 @@ export const Wrapper = styled.div`
   background-color: rgba(1, 1, 1, 0.08);
 `;
 
-export const IconWrapper = styled.div`
-  cursor: pointer;
-  margin: 10px;
-  text-decoration: none;
-  background-color: none;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  color: white;
-  font-weight: bold;
-  align-items: center;
-  font-size: 18px;
-`;
-
-export const EmailIconWrapper = styled.a`
+export const IconWrapper = styled.a`
   cursor: pointer;
   margin: 10px;
   text-decoration: none;

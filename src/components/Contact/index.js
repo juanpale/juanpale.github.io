@@ -1,13 +1,9 @@
 import React, { Component } from "react";
 import contact from "assets/images/contact.jpg";
 import MailIcon from "assets/icons/MailIcon";
+import GithubIcon from "assets/icons/GithubIcon";
 import LinkedinIcon from "assets/icons/LinkedinIcon";
-import {
-  Wrapper,
-  IconWrapper,
-  EmailIconWrapper,
-  TextContainer
-} from "./styles";
+import { Wrapper, IconWrapper, TextContainer } from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
 
 export default class Home extends Component {
@@ -28,17 +24,17 @@ export default class Home extends Component {
         ]}
       >
         <Wrapper>
-          <EmailIconWrapper href="mailto:juanlemoswork@gmail.com?Subject=Hi%20Juan!">
+          <IconWrapper href="mailto:juanlemoswork@gmail.com?Subject=Hi%20Juan!">
             <MailIcon color={"white"} size={80} />
             <TextContainer>{"juanlemoswork@gmail.com"}</TextContainer>
-          </EmailIconWrapper>
-          <IconWrapper
-            onClick={() =>
-              (window.location.href = "https://www.linkedin.com/in/juan-lemos/")
-            }
-          >
+          </IconWrapper>
+          <IconWrapper href="https://www.linkedin.com/in/juan-lemos/">
             <LinkedinIcon color={"white"} size={80} />
             <TextContainer>{"linkedin.com/in/juan-lemos/"}</TextContainer>
+          </IconWrapper>
+          <IconWrapper href="https://github.com/juanpale">
+            <GithubIcon color={"white"} size={90} />
+            <TextContainer>{"github.com/juanpale"}</TextContainer>
           </IconWrapper>
         </Wrapper>
       </ParallaxBanner>
