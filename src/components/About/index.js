@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import JuanLemosProfileImage from "assets/images/juanLemosProfileImage.png";
-import CVpdf from "assets/CV-Juan-Lemos.pdf";
+import CVpdf from "assets/JUAN_LEMOS_CV.pdf";
 import { Link } from "react-scroll";
 import { formatTextWithNewLines } from "utils/stringUtils";
 import { ParallaxBanner, Parallax } from "react-scroll-parallax";
