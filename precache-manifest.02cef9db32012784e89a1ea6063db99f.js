@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/JUAN_LEMOS_CV.8dc80199.pdf"
   },
   {
-    "revision": "c8e86ddd259701a65e55aeef200a77fc",
+    "revision": "76d30facd2cbea905123aaea2b63fffc",
     "url": "/index.html"
   }
 ];
