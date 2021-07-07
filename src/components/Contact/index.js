@@ -4,6 +4,7 @@ import MailIcon from "assets/icons/MailIcon";
 import GithubIcon from "assets/icons/GithubIcon";
 import LinkedinIcon from "assets/icons/LinkedinIcon";
 import MediumIcon from "assets/icons/MediumIcon";
+import YoutubeIcon from "assets/icons/YoutubeIcon";
 import { Wrapper, IconWrapper, TextContainer } from "./styles";
 import { ParallaxBanner } from "react-scroll-parallax";
 
@@ -14,14 +15,14 @@ export default class Home extends Component {
         style={{
           minHeight: "100vh",
           height: "null",
-          background: "rgb(4, 7, 16)"
+          background: "rgb(4, 7, 16)",
         }}
         layers={[
           {
             image: contact,
             amount: 0.3,
-            expandend: true
-          }
+            expandend: true,
+          },
         ]}
       >
         <Wrapper>
@@ -43,6 +44,10 @@ export default class Home extends Component {
           <IconWrapper href="https://medium.com/@juanlemos">
             <MediumIcon color={"white"} size={90} />
             <TextContainer>{"medium.com/@juanlemos"}</TextContainer>
+          </IconWrapper>
+          <IconWrapper href="https://www.youtube.com/channel/UCnNl1BhbCdmYypScI3QOpng">
+            <YoutubeIcon color={"white"} size={90} />
+            <TextContainer>{"Youtube - Juan Lemos"}</TextContainer>
           </IconWrapper>
         </Wrapper>
       </ParallaxBanner>
