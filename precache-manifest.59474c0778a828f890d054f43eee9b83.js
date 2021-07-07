@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "73b749d5cfc2d4fa4965",
+    "revision": "fba0bee137476ebc82c1",
     "url": "/static/css/main.a9fc755e.chunk.css"
   },
   {
-    "revision": "73b749d5cfc2d4fa4965",
-    "url": "/static/js/main.2d900f2b.chunk.js"
+    "revision": "fba0bee137476ebc82c1",
+    "url": "/static/js/main.87966354.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/static/media/JUAN_LEMOS_CV.0b194aa4.pdf"
   },
   {
-    "revision": "9472fa726d244d64d3af9f079b9d2bab",
+    "revision": "1d3174ae32abf34ef0ea930b592ccf6c",
     "url": "/index.html"
   }
 ];
