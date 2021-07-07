@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4fc3b1d809e4a1b00b43",
-    "url": "/static/css/main.59ea2b87.chunk.css"
+    "revision": "73b749d5cfc2d4fa4965",
+    "url": "/static/css/main.a9fc755e.chunk.css"
   },
   {
-    "revision": "4fc3b1d809e4a1b00b43",
-    "url": "/static/js/main.4d840244.chunk.js"
+    "revision": "73b749d5cfc2d4fa4965",
+    "url": "/static/js/main.2d900f2b.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "/static/media/contact.dd36aa87.jpg"
   },
   {
-    "revision": "8dc8019970e07c64cb41f429fa9ed4ac",
-    "url": "/static/media/JUAN_LEMOS_CV.8dc80199.pdf"
+    "revision": "0b194aa4fffa627e5f237725c5467abe",
+    "url": "/static/media/JUAN_LEMOS_CV.0b194aa4.pdf"
   },
   {
-    "revision": "76d30facd2cbea905123aaea2b63fffc",
+    "revision": "9472fa726d244d64d3af9f079b9d2bab",
     "url": "/index.html"
   }
 ];
